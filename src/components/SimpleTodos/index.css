@@ -1,0 +1,27 @@
+.page-container {
+  background-color: #ffc2a0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.heading {
+  color: #ff8542;
+  font-size: 35px;
+  font-family: 'Roboto';
+}
+
+.todos-container {
+  list-style-type: none;
+  padding: 0px;
+}
