@@ -25,3 +25,46 @@
   list-style-type: none;
   padding: 0px;
 }
+
+.add-todo-container {
+  display: flex;
+  align-items: center;
+}
+
+.text-input {
+  width: 60%;
+  height: 40px;
+  border: 2px solid #0c8aeb;
+  font-family: 'Roboto';
+  font-size: 17px;
+  outline: none;
+  margin-right: 20px;
+  padding-left: 10px;
+  border-radius: 3px;
+}
+
+.add-button {
+  height: 40px;
+  width: 80px;
+  background-color: #0c8aeb;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+  .page-container {
+    padding: 20px;
+  }
+  .container {
+    padding: 15px;
+  }
+  .text-input {
+    font-size: 15px;
+    margin-right: 10px;
+  }
+}
